@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     
 }
 
@@ -11,8 +12,9 @@ body{
     background-image: url(img/bmw_home02.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center center;
     height: 100vh;
+    
+
 }
 
 .header_top{
@@ -21,8 +23,8 @@ body{
 }
 
 .header_bottom{
-    margin-bottom: 60px;
-    padding-left: 5%;
+    padding-bottom: 4%;
+    padding-left: 6%;
 }
 
 
