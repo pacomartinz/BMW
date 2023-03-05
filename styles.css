@@ -87,7 +87,7 @@ h1{
     color: white;
 }
 
-p{
+.subtitulo{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -102,4 +102,183 @@ button{
     width: 10%;
     height: 30%;
 
+}
+
+.series__texto{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8%;
+    padding-top: 4%;
+
+}
+
+
+.test{
+    display: flex;
+    justify-content: space-around;
+}
+
+.modelos{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 70%;
+    align-content:space-around;
+    
+    padding-top: 30px;
+
+}
+
+.cabrio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 220%;
+    color: black;
+    width: 30px;
+    
+
+}
+
+.model{
+    color: black;
+}
+
+
+
+.bloque01__container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 2%;
+    width: 80%;
+}
+
+.coche__container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.coche__texto--titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.coche__texto--precio{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.coche__texto--negrita{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+.bloque02__container{
+    padding-top: 150px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right: 2%;
+    width: 80%;
+}
+
+.coche__img{
+    width: 120%;
+}
+
+.bloque02__texto01--titular{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 170%;
+    color: black;
+}
+
+.bloque02__texto02--cuerpo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    color: black;
+}
+
+.bloque02__texto03{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60%;
+    color: black;
+}
+
+.bloque02__texto{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    width: 200px;
+}
+
+.bloque03{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.bloque03__left{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloque03__right{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+.img__bloque03{
+    width: 400px;
+    height: 235px;
+}
+
+.img__bloque03--youtube{
+    width: 400px;
+    height: 235px;
+}
+
+.bloque03__texto01{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer__parte01{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__categoria{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer__item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    color: grey;
 }
